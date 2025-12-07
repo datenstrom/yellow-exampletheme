@@ -1,6 +1,6 @@
 # Newtheme 0.9.1
 
-Small example theme for Datenstrom Yellow.
+Example theme for Datenstrom Yellow.
 
 <p align="center"><img src="SCREENSHOT.png" alt="Screenshot"></p>
 
