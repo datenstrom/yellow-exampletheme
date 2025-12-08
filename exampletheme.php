@@ -1,7 +1,7 @@
 <?php
-// Newtheme extension, https://github.com/datenstrom/yellow-newtheme
+// Exampletheme extension, https://github.com/datenstrom/yellow-exampletheme
 
-class YellowNewtheme {
+class YellowExampletheme {
     const VERSION = "0.9.1";
     public $yellow;         // access to API
     
@@ -14,8 +14,8 @@ class YellowNewtheme {
     public function onUpdate($action) {
         $fileName = $this->yellow->system->get("coreExtensionDirectory").$this->yellow->system->get("coreSystemFile");
         if ($action=="install") {
-            $this->yellow->system->save($fileName, array("theme" => "newtheme"));
-        } elseif ($action=="uninstall" && $this->yellow->system->get("theme")=="newtheme") {
+            $this->yellow->system->save($fileName, array("theme" => "exampletheme"));
+        } elseif ($action=="uninstall" && $this->yellow->system->get("theme")=="exampletheme") {
             $this->yellow->system->save($fileName, array("theme" => $this->yellow->system->getDifferent("theme")));
         }
     }

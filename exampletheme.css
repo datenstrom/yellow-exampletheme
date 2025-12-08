@@ -1,4 +1,4 @@
-/* Newtheme extension, https://github.com/datenstrom/yellow-newtheme */
+/* Exampletheme extension, https://github.com/datenstrom/yellow-exampletheme */
 
 /* Colors and fonts */
 
@@ -20,21 +20,21 @@
     font-style: normal;
     font-weight: 300;
     font-display: swap;
-    src: url(newtheme-firasans-light.woff) format("woff");
+    src: url(exampletheme-firasans-light.woff) format("woff");
 }
 @font-face {
     font-family: "Fira Sans";
     font-style: normal;
     font-weight: 400;
     font-display: swap;
-    src: url(newtheme-firasans-regular.woff) format("woff");
+    src: url(exampletheme-firasans-regular.woff) format("woff");
 }
 @font-face {
     font-family: "Fira Sans";
     font-style: normal;
     font-weight: 700;
     font-display: swap;
-    src: url(newtheme-firasans-bold.woff) format("woff");
+    src: url(exampletheme-firasans-bold.woff) format("woff");
 }
 
 /* General */
